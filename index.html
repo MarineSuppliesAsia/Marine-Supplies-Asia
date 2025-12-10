@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Marine Supplies Asia</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #0b1f3b, #0c4f6b);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px 25px 25px;
+            border-radius: 16px;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 260px;
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #0b1f3b;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 18px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #007bff;
+            color: #ffffff;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            width: 100%;
+            margin-bottom: 10px;
+            text-decoration: none;
+            transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.12s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn span.icon {
+            font-size: 18px;
+        }
+
+        .btn-call {
+            background: #007bff;
+        }
+
+        .btn-call:hover {
+            background: #0062cc;
+        }
+
+        .btn-email {
+            background: #28a745;
+        }
+
+        .btn-email:hover {
+            background: #218838;
+        }
+
+        .btn-wa {
+            background: #25d366;
+        }
+
+        .btn-wa:hover {
+            background: #1eb955;
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-text {
+            margin-top: 14px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 24px 18px 20px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- LOGO -->
+    <img src="MSA logo.png" alt="Marine Supplies Asia" class="logo">
+
+    <!-- HEADER -->
+    <h2>Contact Us Now</h2>
+    <p class="subtitle">Quick support for marine equipment, parts & technical questions.</p>
+
+    <!-- CALL BUTTON -->
+    <a href="tel:+60125855176" class="btn btn-call">
+        <span class="icon">📞</span>
+        <span>Call Us: +60 12 585 5176</span>
+    </a>
+
+    <!-- EMAIL BUTTON -->
+    <a href="mailto:Sales@marinesuppliesasia.com" class="btn btn-email">
+        <span class="icon">✉️</span>
+        <span>Email: Sales@marinesuppliesasia.com</span>
+    </a>
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="https://wa.me/60125855176?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20marine%20equipment." 
+       class="btn btn-wa">
+        <span class="icon">💬</span>
+        <span>WhatsApp: +60 12 585 5176</span>
+    </a>
+
+    <p class="footer-text">Marine Supplies Asia &mdash; Manufacturer-direct marine equipment & support.</p>
+</div>
+
+</body>
+</html>
